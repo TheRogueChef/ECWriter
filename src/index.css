@@ -1,11 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@font-face {
+  font-family: "PersianSword";
+  src: local("PersianSword"),
+    url("./components/fonts/PersianSword/PersianSword.ttf") format("truetype");
+  font-weight: bold;
 }
+
+@font-face {
+  font-family: "ToxTypewriter";
+  src: local("ToxTypewriter"),
+    url("./components/fonts/ToxTypewriter/ToxTypewriter.ttf") format("truetype");
+  font-weight: bold;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
