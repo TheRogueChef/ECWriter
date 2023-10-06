@@ -1,0 +1,42 @@
+import React from 'react';
+import '../style.css';
+import { Link as RouterLink } from 'react-router-dom';
+
+
+
+const DiarrheticReaction = () => {
+
+    return (
+        <div className='DRShell'>
+            <div className='stBar'>
+                <p className='DRTitle'>Diarrhetic Reaction</p>
+                <RouterLink className='stBtn' to='/library'>Back to Library</RouterLink>
+            </div >
+            <div className='DRBox'>
+                <p>
+                    This will trigger a strong diarrhetic reaction.
+                </p>
+                <p>
+                    We weren’t prepared for what 2020 brought us. I’m not speaking to the obvious horrors that are all around us, but how we, as humans, weren’t ready for this. I am sure that the bigger minds of our times did see this coming but even then, could we have known that this year would be life altering for our relationship as animal to host, human to nature? We stood strong to our confidence that we were kind beings, knowing that we had those amongst us needing direction and guidance, but overall decent. We seem to have always spoken the words that would make one think, “Wow, these people really understand what’s going on!” However, our actions have shown otherwise. I’m not here to criticize us as humans, I’m not here to say we are stupid lemmings to whom the world has been oh so unkind. But instead we are still children in the grand scheme of it all. Think about it; even on the evolutionary plate of thinking we are just figuring out how we as a species really fit in. We still fumble through bad decisions made as an unapologetic ego-centric teenager who knows no better than to think only of themselves as their understanding of life hasn’t granted them empathy or sympathy in kind. We still hurt ourselves by burning resources and chopping at our own house in the name of progress. We will get there someday. I like to think that the future for our species of humans will go on and become a great presence and not a scourge, like roaches.
+                </p>
+                <p>
+                    We are here in the now though, and we obviously weren’t ready for what this year brought. We have seen on all the shiny talking boxes our own true, still very alive ugliness and it shows us our level of understanding as to our place in the world is still really far from what anyone can think is sympatico. We still war on our own kind, human, believing that the color of one’s skin actually makes us different. We watch each other harbor these ill wills on the behalf of their ancestors. Allowing the statements of family’s elders and laws written by years of repetition to overwhelm our idea of true progress and the blatant knowledge that we are truly stronger together. But, we don’t all see that yet. We weren’t ready. I like to entertain the idea that the world marches on in her glorious dull trod, time for adjustment be damned. And, we were supposed to be better by now. We stumbled, as humans do, on ourselves. And that’s where we are right now, still stumbling and hopefully evolving.
+                </p>
+                <p>
+                    I am not one to believe in spectral beings allowing us to live in their world as they watch and, from what I hear, join in to life from time to time. I don’t believe in prophets per se, but I do believe that some of us are deeper than most. They carry with them some form of understanding human kind in a way that makes most of us curious and willing until our louder lamer human side crashes in and tells us how that should make us feel. Example, John Lennon. I don’t think he saw things we didn’t see, well the acid was pretty strong back then, but I digress. I don’t believe he could commune with otherworldly beings to discern the path we are all supposed to be traversing as a species. But I do believe he was deeper than most. I think he could feel where we should be as a species, like a human marker in time. He represented an enlightened human, allowing our human vanities and base animalistic tendencies to be the part of him he learned from. He could see that the path we are on is finite, but if we were to fully embrace ourselves as humans, right now, we would transcend this ugly, but apparently crucial moment in human evolution. I use John because his massage was clear, Imagine. We muddy up our own waters when it comes to understanding each other. We see each other through our own filters and as our filters narrow and begin to be invaded by an unrelenting barrage of varied messages we stop realizing there are filters with everyone. We are most human in our parenting brain. When we are sharing with another our knowledge and want them to understand we see their filters. We understand they are seeing things from a slightly different view and we bend our words and shape our actions to their filter. When we stand face to face, our perspectives staring down one another and unrelenting in our filtered view, we forget. Its in these moments we are more animal than ever. I say all of this as a human, not deep with knowledge and understanding, but base and animalistic in my approaches too. I am no John Lennon. I feel anger and even hate as I stand there, my filter screening every harsh, loud word and sideways, cutting glances I see hurling at me. I want to understand more. I want to be part of the existential growth of us as a species of human beings, truly in synch with not only the world surrounding us but to the individuals walking beside us. Once again, the mighty ‘but’ steps in and tells me, like many of us, we simply weren’t ready.
+                </p>
+                <p>
+                    Maybe it’s a simplistic correlation but perhaps 2020 is our historical colonoscopy. What if we prepared for all of it just as we were instructed? We ran out and we purchased all the things we knew would set us up just right for the procedure. We highlighted the directed moments and discussed at length with many wise people just what should and will happen next. We set aside the time to go through this experience so that we would settle in very nicely to the moment something will be entering our life and looking around. But, in the middle of all the planning and scheduling and calculating we saw something that scared us. We saw words that raise the small child in us, tormented by the idea of embarrassment or stark out right alienation; ‘this will trigger a strong diarrhetic reaction’. We saw this as time spent n the dark recesses experiencing sounds and feelings that no one wants to willingly experience. We felt the collective gulp as we knew that this would be a moment none of us would be proud in or really share with others, but we had to go through it. Here’s where I find something fleeting to me, hope. I am hoping that moment, when all the stuff we have had building up inside of us all comes rushing out, bringing with it the past. All this verbal diarrhea we have mounded atop ourselves in our single view filters comes pouring out loudly, messy.
+                </p>
+                <p>
+                    We weren’t ready for 2020. We did what we thought we could through our filters and have found out we should be better now, that these hateful old ways are hurting us, like tumors growing inside. Part of this has to be extraction, of course. We have our own human cancers and growths that we need to have attended to, but they are operable. Can we do this? Are we up to the challenge of cleansing ourselves as humans of these toxic and harmful pieces of us, historically or humanely? I hope so. I wish nothing more for us than to be reflective and search out what ails us as humans. I want no more than our group human mind looking at us all as a whole and as a collective being moving truly forward in to progress. I think I’m hopeful for us. I hope that we wake up from the nap and we can rebuild it all, inclusively. We will take the notes from the grand human experiment and put them in to play with ‘better’ as the goal. I guess this is a wish for our kids and their kids to come. In the meantime, we should strive for kindness and empathy to all and, get your colon checked out. Don’t get caught unprepared again for such a strong diarrhetic reaction.
+                </p>
+                <p>
+                    Peace and TP for all!
+                </p>
+            </div>
+        </div>
+    );
+};
+
+export default DiarrheticReaction;

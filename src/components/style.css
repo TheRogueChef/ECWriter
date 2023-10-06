@@ -19,6 +19,7 @@
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -43,15 +44,28 @@
     height: 100vh;
 }
 
-.MTitle {
+.MTitle,
+.libTitle {
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 3s steps(30, end);
     font-size: 4rem;
-    position: relative;
-    margin-left: 13.5rem;
 }
 
+.libTitle {
+    animation: typing 3s steps(30, end);
+    position: relative;
+    margin-left: 0;
+    font-size: 5rem;
+    text-shadow: .2rem .2rem black;
+}
+
+.MTitle {
+    margin-left: 13.5rem;
+    animation: typing 3s steps(30, end);
+    position: relative;
+}
+
+.libTitle::after,
 .MTitle::after {
     content: "|";
     display: inline-block;
@@ -60,9 +74,6 @@
     animation-fill-mode: forwards;
     margin-left: 5px;
 }
-
-
-
 
 
 
@@ -183,4 +194,206 @@
     height: 20px;
     background-color: #007bff;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+/*aboutMe*/
+.AMShell {
+    display: flex;
+    background-image: url(../components/images/sideWriter.jpg);
+    background-size: cover;
+    height: 100%;
+    color: ghostwhite;
+    width: 100%;
+    font-family: ToxTypewriter;
+}
+
+.AMLeft {
+    width: 60%;
+    padding: 2%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.AMRight {
+    width: 25%;
+    padding: 5%;
+}
+
+.AMBtn {
+    width: 4rem;
+    height: 4rem;
+    border: .25rem solid ghostwhite;
+    border-radius: 5%;
+    color: ghostwhite;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, .5);
+    margin-left: 8rem;
+    font-size: 3rem;
+    padding: 2%;
+}
+
+/*library*/
+.libShell {
+    background-image: url(../components/images/hiddenLibrary.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: ghostwhite;
+    font-family: ToxTypewriter;
+    text-align: center;
+    padding: 3%;
+    display: flex;
+}
+
+.libRight {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.libBox, .DRLibBox, .HGHLibBox {
+    width: 10rem;
+    height: 6rem;
+    border: .25rem solid ghostwhite;
+    border-radius: 5%;
+    color: ghostwhite;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, .8);
+    margin-left: 8rem;
+    font-size: 3rem;
+    padding: 2%;
+    text-shadow: .1rem .1rem gold;
+}
+
+.DRLibBox {
+width: 15rem;
+}
+
+.HGHLibBox {
+height: 10rem;
+}
+
+/*stories*/
+.TLShell,
+.MVIShell,
+.LShell,
+.DRShell,
+.HGHShell,
+.KeegShell {
+    padding: 2%;
+    height: 100vh;
+    color: ghostwhite;
+    font-family: ToxTypewriter;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.stTitle, .DRTitle {
+    font-size: 6rem;
+    text-shadow: .1rem .1rem red;
+    border: solid .25rem red;
+    background-color: rgba(0, 0, 0, .5);
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.stBar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -2%;
+}
+
+.stBtn,
+.LBtn {
+    margin-top: 8.5rem;
+    height: 2.5rem;
+    border-radius: 5%;
+    color: ghostwhite;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, .5);
+    font-size: 2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.stBtn {
+    border: .25rem solid ghostwhite;
+}
+
+.TLShell {
+    background-image: url(../components/images/whiteHearts.jpg);
+    background-size: 100%;
+    height: auto;
+    color: black;
+}
+
+.TLBox {
+    text-shadow: .05rem .05rem black;
+}
+
+.MVIShell {
+    background-image: url(../components/images/conflictFaces.jpg);
+    background-size: 100%;
+    height: auto;
+    color: ghostwhite;
+}
+
+.MVIBox,
+.LBox, .DRBox {
+    background-color: rgba(0, 0, 0, .7);
+    border: solid .1rem black;
+    text-shadow: .05rem .05rem ghostwhite;
+}
+
+.LShell {
+    background-image: url(../components/images/colors.jpeg);
+    background-size: cover;
+    height: auto;
+    text-shadow: .05rem .05rem ghostwhite;
+}
+
+.LBox {
+    padding: 1%;
+}
+
+.LBtn {
+    border: .25rem solid black;
+}
+
+.DRShell {
+    background-image: url(../components/images/TP.jpg);
+    background-size: cover;
+    height: auto;
+    color: black;
+}
+
+.DRBox, .HGHBox {
+    color: ghostwhite;
+    padding: 1%;
+}
+
+.DRTitle {
+    color: ghostwhite;
+}
+
+.HGHShell {
+    background-image: url(../components/images/antiHate.jpg);
+    background-size: cover;
+    padding-bottom: 10%;
+}
+
+.HGHBox {
+    text-shadow: .05rem .05rem ghostwhite;
+    background-color: rgba(0, 0, 0, .8);
+    border: .25rem solid ghostwhite;
+    border-radius: 2%;
+}
+
+.KeegShell {
+    background-image: url(../components/images/SmileyKeegs2.jpg);
+    background-size: 100%;
+    padding-bottom: 15%;
+    color: ghostwhite;
+    text-shadow: .05rem .05rem ghostwhite;
 }

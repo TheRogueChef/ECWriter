@@ -12,7 +12,7 @@ const Main = () => {
                 <p className='MTitle'>Erik Carlson, writer</p>
             </div >
             <div className='mainRight'>
-                <RouterLink className='enterBtn' to='/dashboard'>enter</RouterLink>
+                <RouterLink className='enterBtn' to='/aboutMe'>enter</RouterLink>
             </div>
         </div>
     );
