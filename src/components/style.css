@@ -44,9 +44,7 @@
     height: 100vh;
 }
 
-.container{
-    margin-top: -30%;
-}
+
 
 .MTitle,
 .libTitle {
@@ -59,9 +57,11 @@
     animation: typing 3s steps(30, end);
     position: relative;
     margin-left: 0;
-    font-size: 5rem;
+    font-size: 7rem;
+    word-wrap: normal;
     text-shadow: .2rem .2rem ghostwhite;
     color: red;
+    overflow-wrap: break-word;
 }
 
 .MTitle {
@@ -72,12 +72,16 @@
 
 .libTitle::after,
 .MTitle::after {
-    content: "|";
+
     display: inline-block;
     width: 0;
     animation: typing 3s steps(30, end) reverse;
     animation-fill-mode: forwards;
     margin-left: 5px;
+}
+
+.MTitle ::after {
+    content: "|";
 }
 
 
@@ -251,7 +255,7 @@
 
 .thoughts {
     font-size: 3rem;
-    margin-top: -20%;
+    margin-top: 30%;
     text-shadow: .15rem .15rem ghostwhite;
     color: red;
 }
@@ -266,7 +270,8 @@
 
 .libLeft {
     border: solid .2rem ghostwhite;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .8);
+    padding: 1%;
 }
 
 .libBox, .DRLibBox, .HGHLibBox {
@@ -282,6 +287,8 @@
     padding: 2%;
     text-shadow: .1rem .1rem gold;
 }
+
+
 
 .DRLibBox {
 width: 15rem;
