@@ -10,8 +10,16 @@ const Library = () => {
 
     return (
         <div className='libShell'>
-            <div className='container'>
-                <p className='libTitle'>Welcome to my library</p>
+            <div className='libLeft'>
+                <div className='container'>
+                    <p className='libTitle'>Welcome to the library</p>
+                </div>
+                <div className='thoughts'>
+                <p>Thoughts?</p>
+                <a style={{ color: 'red', textDecoration: 'none', textShadow: '.15rem .15rem ghostwhite'}} href='mailto:theroguechef@comcast.net' target='_blank' rel='noopener noreferrer'>
+                <p>theroguechef@comcast.net</p>
+                </a>
+                </div>
             </div>
             <br /><br />
             <div className='libRight'>
