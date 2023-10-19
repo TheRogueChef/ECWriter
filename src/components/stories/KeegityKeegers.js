@@ -13,7 +13,7 @@ const Keegan = () => {
                 <p className='stTitle'>Keegity Keegers</p>
                 <RouterLink className='stBtn' to='/library'>Back to Library</RouterLink>
             </div>
-            <div>
+            <div className='KeegBox'>
                 <p>
                     I recently lost a good friend, a furry family member. His name was Keegan (AKA: Keegity Keegers, Misser Keegs and The Keegs). He was a sweet little guy, who for the most part, I think, believed he was part cat. He was completely happy just lounging. He did have his doggy moments and did enjoy his daily walks, but for the most part, to curl up in one of the myriads of cat/dog beds around the house and peek out at his world through heavy lidded eyes was his happiness. He was a very handsome cattle dog/mix of a canine, mid-sized and really smart. Mostly though he just loved as his main job in life, loved like tomorrow isn’t coming and now is obviously the most important moment in time.
                 </p>
