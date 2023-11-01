@@ -23,6 +23,7 @@ const ToLove = () => {
             <p className='TLBox' >
                 See, cliches riddle the landscape, but remain true. They do distill the ideas surrounding those feelings pretty well sometimes. As I read back over this, I smile thinking, ‘geez Erik, what are you writing??’ Knowing full and well these words can only scratch the surface of what I really mean to say, but they will have to do. I follow no religion in my life and often don’t utilize the words surrounding faith, but when I think of my wife; my son, I can appreciate my own form of the word, blessed. My only real hope is general and big everybody, love those that you want to love. Let those you want to love you, love you. It can become your everything, the only thing that you do or would ever want to do. It is my Force. It is my oxygen. I am truly the luckiest man in the world.
             </p>
+            <RouterLink className='home' to='/'>Home</RouterLink>
         </div>
     );
 };

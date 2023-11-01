@@ -3,7 +3,6 @@ import '../components/style.css';
 import { Link as RouterLink } from 'react-router-dom';
 
 
-
 const AboutMe = () => {
 
     return (
@@ -16,12 +15,11 @@ const AboutMe = () => {
                 </p>
                 <p>Dig in.</p>
                 <br />
+                <RouterLink className='home' to='/'>Home</RouterLink>
                 </div>
                 <div className="AMRight">
                 <RouterLink className='AMBtn' to='/library'>My Library</RouterLink>
                 </div>
-                
-            
         </div>
     );
 };

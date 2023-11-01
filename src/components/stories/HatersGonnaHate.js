@@ -29,6 +29,7 @@ const HGH = () => {
                 <p>
                     Haters gonna hate, but we don’t have to end the statement there.
                 </p>
+                <RouterLink className='home' to='/'>Home</RouterLink>
             </div>
         </div>
     );

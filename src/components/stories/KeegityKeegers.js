@@ -26,6 +26,7 @@ const Keegan = () => {
                 <p>
                     A couple weeks ago, Keegan passed away. He had been struggling with health issues in the much later years of his life and he finally succumb to its tenacity. It was a very sad time for us, as it is for any who lose a loved one, furry or not. Our pets become so much more to us. The unconditional love of a sweet pooch like Keegan is intoxicating. It’s adorable and it’s something we can only find in the dog/human relationship. Keegans ashes now rest in a sweet little blue urn in our living room bearing a small leather collar and the silver tag, Keegan. I miss him and I will always love that he was the one and only dog in our family. RIP Keegity Keegers, you were very loved and will be remembered forever.
                 </p>
+                <RouterLink className='home' to='/'>Home</RouterLink>
             </div>
         </div>
     );

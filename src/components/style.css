@@ -14,6 +14,14 @@
     animation: fadeIn 3s ease-in-out 0s forwards;
 }
 
+.MTitleMM {
+    display: none;
+}
+
+.home {
+    display: none;
+}
+
 
 @keyframes fadeIn {
     from {
@@ -110,13 +118,39 @@
 
 
 @media (max-width: 768px) {
-    .dashRight {
+
+    .enterBtn,
+    .MTitle,
+    .AMRight,
+    .libLeft,
+    .AMBtn,
+    .stBtn,
+    .LBtn {
         display: none;
     }
-}
 
-.menu-items {
-    color: white;
+    .AMLeft {
+        margin-left: 20%;
+    }
+
+    .DRTitle {
+        font-size: 4rem !important;
+    }
+
+    .home {
+        color: ghostwhite;
+        background-color: red;
+        border: .2rem solid ghostwhite;
+        border-radius: 2%;
+        font-size: 2rem;
+        display: block;
+    }
+
+    .MTitleMM {
+        display:block;
+        font-size: 2rem;
+    }
+
 }
 
 
@@ -130,7 +164,6 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    color: white;
 }
 
 .menu-icon {
@@ -274,7 +307,9 @@
     padding: 1%;
 }
 
-.libBox, .DRLibBox, .HGHLibBox {
+.libBox,
+.DRLibBox,
+.HGHLibBox {
     width: 10rem;
     height: 6rem;
     border: .25rem solid ghostwhite;
@@ -291,11 +326,11 @@
 
 
 .DRLibBox {
-width: 15rem;
+    width: 15rem;
 }
 
 .HGHLibBox {
-height: 10rem;
+    height: 10rem;
 }
 
 /*stories*/
@@ -313,7 +348,8 @@ height: 10rem;
     text-align: center;
 }
 
-.stTitle, .DRTitle {
+.stTitle,
+.DRTitle {
     font-size: 6rem;
     text-shadow: .1rem .1rem red;
     border: solid .25rem red;
@@ -364,7 +400,8 @@ height: 10rem;
 }
 
 .MVIBox,
-.LBox, .DRBox {
+.LBox,
+.DRBox {
     background-color: rgba(0, 0, 0, .7);
     border: solid .1rem black;
     text-shadow: .05rem .05rem ghostwhite;
@@ -392,7 +429,8 @@ height: 10rem;
     color: black;
 }
 
-.DRBox, .HGHBox {
+.DRBox,
+.HGHBox {
     color: ghostwhite;
     padding: 1%;
 }

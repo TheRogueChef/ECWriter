@@ -34,6 +34,7 @@ const DiarrheticReaction = () => {
                 <p>
                     Peace and TP for all!
                 </p>
+                <RouterLink className='home' to='/'>Home</RouterLink>
             </div>
         </div>
     );

@@ -33,6 +33,7 @@ const Late = () => {
             <p>
                 Peace.
             </p>
+            <RouterLink className='home' to='/'>Home</RouterLink>
             </div>
         </div>
     );

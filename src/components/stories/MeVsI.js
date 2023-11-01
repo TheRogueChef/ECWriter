@@ -28,6 +28,7 @@ const MeVsI = () => {
                 During this time of self-awakening I began to compartmentalize The Critic and ‘Me’ in to what has served me versus what will serve me. Meaning what do I not want to be anymore and what would I want to become. Easy to type those simple questions out here, but I am years in to this search and I feel like I’m just scratching the surface. I still see through both sets of my eyes. Like I said in the beginning I have days where one voice is louder than the other and days when I am definitely a better man. But I am inconsistent. Are we all? Do we all teeter back and forth between who we are and who we wanted to be? I strive every day to be a better man for me. When I can make The Critic a quiet silly back seat driver and ‘Me’ is singing along to Cheap Trick in the front seat life is good. I will keep this open question in my life and I truly urge every one of you to ask the same question, “who do I want to be today?” Trust me, one day I won’t be so inconsistent.
 
             </p>
+            <RouterLink className='home' to='/'>Home</RouterLink>
             <br /><br /><br />
 
         </div>
