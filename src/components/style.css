@@ -340,7 +340,9 @@
 .DRShell,
 .HGHShell,
 .KeegShell,
-.godShell {
+.godShell,
+.GGShell,
+.NPShell {
     padding: 2%;
     height: 100vh;
     color: ghostwhite;
@@ -431,7 +433,8 @@
 }
 
 .DRBox,
-.HGHBox {
+.HGHBox, 
+.NPBox {
     color: ghostwhite;
     padding: 1%;
 }
@@ -474,4 +477,26 @@
     background-size: cover;
     height: auto;
     padding-bottom: 10%;
+}
+
+.GGShell {
+    background-image: url(../components/images/Flag.jpg);
+    background-size: cover;
+    height: auto;
+    padding-bottom: 10%;
+}
+
+.NPShell {
+    background-image: url(../components/images/life.jpg);
+    background-size: contain;
+    height: auto;
+    padding-bottom: 10%;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+.NPBox {
+    background-color: rgba(0, 0, 0, .8);
+    border: solid .1rem black;
+    text-shadow: .05rem .05rem ghostwhite;
 }

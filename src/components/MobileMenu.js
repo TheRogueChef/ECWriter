@@ -35,6 +35,10 @@ const MobileMenu = () => {
                         Me vs I
                     </RouterLink>
                     <br /><br />
+                    <RouterLink to="natProg" style={{ textDecoration: 'none', color: 'black'}} smooth="true" duration={500}>
+                        Natural Progression
+                    </RouterLink>
+                    <br /><br />
                     <RouterLink to="late" style={{ textDecoration: 'none', color: 'black'}} smooth="true" duration={500}>
                         Late
                     </RouterLink>
@@ -52,7 +56,11 @@ const MobileMenu = () => {
                     </RouterLink>
                     <br /><br />
                     <RouterLink to="keegs" style={{ textDecoration: 'none', color: 'black'}} smooth="true" duration={500}>
-                        Keegity Keegs Keegers
+                        Keegity Keegers
+                    </RouterLink>
+                    <br /><br />
+                    <RouterLink to="goodGuys" style={{ textDecoration: 'none', color: 'black'}} smooth="true" duration={500}>
+                        Good Guys
                     </RouterLink>
                 </div>
             )}

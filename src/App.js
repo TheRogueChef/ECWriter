@@ -11,6 +11,8 @@ import DR from './components/stories/DiarrheticReaction';
 import HGH from './components/stories/HatersGonnaHate';
 import Keegs from './components/stories/KeegityKeegers';
 import God from './components/stories/WheresGod';
+import GoodGuys from './components/stories/GoodGuys';
+import NatProg from './components/stories/NaturalProgression';
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
           <Route path='/hgh' element={<HGH/>} />
           <Route path='/keegs' element={<Keegs/>} />
           <Route path='/wheresGod' element={<God/>} />
+          <Route path='/goodGuys' element={<GoodGuys/>} />
+          <Route path='/natProg' element={<NatProg/>} />
         </Routes>
       </Router>
     </div>
