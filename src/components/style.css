@@ -339,7 +339,8 @@
 .LShell,
 .DRShell,
 .HGHShell,
-.KeegShell {
+.KeegShell,
+.godShell {
     padding: 2%;
     height: 100vh;
     color: ghostwhite;
@@ -455,6 +456,7 @@
 .KeegShell {
     background-image: url(../components/images/SmileyKeegs2.jpg);
     background-size: cover;
+    height: auto;
     padding-bottom: 20%;
     color: ghostwhite;
     text-shadow: .05rem .05rem ghostwhite;
@@ -465,4 +467,11 @@
     background-color: rgba(0, 0, 0, .6);
     border-radius: 2%;
     padding: 1%;
+}
+
+.godShell {
+    background-image: url(../components/images/worship.jpg);
+    background-size: cover;
+    height: auto;
+    padding-bottom: 10%;
 }

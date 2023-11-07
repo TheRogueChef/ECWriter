@@ -10,6 +10,7 @@ import Late from './components/stories/Late';
 import DR from './components/stories/DiarrheticReaction';
 import HGH from './components/stories/HatersGonnaHate';
 import Keegs from './components/stories/KeegityKeegers';
+import God from './components/stories/WheresGod';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path='/dr' element={<DR/>} />
           <Route path='/hgh' element={<HGH/>} />
           <Route path='/keegs' element={<Keegs/>} />
+          <Route path='/wheresGod' element={<God/>} />
         </Routes>
       </Router>
     </div>

@@ -30,6 +30,7 @@ const Library = () => {
                 <RouterLink className='libBox' to='/late'>Late</RouterLink>
                 <RouterLink className='DRLibBox' to='/dr'>Diarrhetic Reaction</RouterLink>
                 <RouterLink className='HGHLibBox' to='/hgh'>Haters Gonna Hate</RouterLink>
+                <RouterLink className='libBox' to='/wheresGod'>Where's God?</RouterLink>
                 <RouterLink className='DRLibBox' to='/keegs'>Keegity Keegers</RouterLink>
                 <ScrollToTopButton />
             </div>
