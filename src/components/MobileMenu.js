@@ -52,7 +52,7 @@ const MobileMenu = () => {
                     </RouterLink>
                     <br /><br />
                     <RouterLink to="keegs" style={{ textDecoration: 'none', color: 'black'}} smooth="true" duration={500}>
-                        Keegity Keegers
+                        Keegity Keegs Keegers
                     </RouterLink>
                 </div>
             )}
