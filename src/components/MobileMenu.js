@@ -47,6 +47,10 @@ const MobileMenu = () => {
                         Haters Gonna Hate
                     </RouterLink>
                     <br /><br />
+                    <RouterLink to="wheresGod" style={{ textDecoration: 'none', color: 'black'}} smooth="true" duration={500}>
+                        Where's God?
+                    </RouterLink>
+                    <br /><br />
                     <RouterLink to="keegs" style={{ textDecoration: 'none', color: 'black'}} smooth="true" duration={500}>
                         Keegity Keegers
                     </RouterLink>
