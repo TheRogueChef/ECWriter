@@ -342,7 +342,8 @@
 .KeegShell,
 .godShell,
 .GGShell,
-.NPShell {
+.NPShell,
+.BYShell {
     padding: 2%;
     height: 100vh;
     color: ghostwhite;
@@ -499,4 +500,11 @@
     background-color: rgba(0, 0, 0, .8);
     border: solid .1rem black;
     text-shadow: .05rem .05rem ghostwhite;
+}
+
+.BYShell {
+    background-image: url(../components/images/backyard.jpg);
+    background-size: cover;
+    height: auto;
+    padding-bottom: 10%;
 }

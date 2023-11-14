@@ -13,6 +13,7 @@ import Keegs from './components/stories/KeegityKeegers';
 import God from './components/stories/WheresGod';
 import GoodGuys from './components/stories/GoodGuys';
 import NatProg from './components/stories/NaturalProgression';
+import Backyard from './components/stories/MyBackyard';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path='/wheresGod' element={<God/>} />
           <Route path='/goodGuys' element={<GoodGuys/>} />
           <Route path='/natProg' element={<NatProg/>} />
+          <Route path='/myBackyard' element={<Backyard/>} />
         </Routes>
       </Router>
     </div>

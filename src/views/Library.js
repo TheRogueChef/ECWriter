@@ -29,6 +29,7 @@ const Library = () => {
                 <RouterLink className='libBox' to='/mvi'>Me vs I</RouterLink>
                 <RouterLink className='libBox' to='/late'>Late</RouterLink>
                 <RouterLink className='DRLibBox' to='/natProg'>Natural Progression</RouterLink>
+                <RouterLink className='DRLibBox' to='/myBackyard'>My Backyard</RouterLink>
                 <RouterLink className='DRLibBox' to='/dr'>Diarrhetic Reaction</RouterLink>
                 <RouterLink className='HGHLibBox' to='/hgh'>Haters Gonna Hate</RouterLink>
                 <RouterLink className='libBox' to='/wheresGod'>Where's God?</RouterLink>
